@@ -1,3 +1,6 @@
+Write a shell script that gets excuted and display the message either "GOOD MORNING" or "GOOD AFTERNOON" or "GOOD EVENING"  depending upon the time at which the user logs in
+
+
 set -- `who`
 u=$1
 t=$4
