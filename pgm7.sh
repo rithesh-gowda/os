@@ -1,3 +1,4 @@
+Create a script file called file properties that reads a filename enterd and output its properties.
 if [ -e $1 ]
 then 
 set -- `ls -ld $1`
@@ -8,5 +9,5 @@ echo "gruop nmae is:$4"
 echo "file size is:$5"
 echo "modification is done $6 $7 at $8"
 else
-echo "file is noy found"
+echo "file is not found"
 fi
