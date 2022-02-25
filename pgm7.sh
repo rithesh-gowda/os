@@ -1,4 +1,4 @@
-Create a script file called file properties that reads a filename enterd and output its properties.
+#Create a script file called file properties that reads a filename enterd and output its properties.
 if [ -e $1 ]
 then 
 set -- `ls -ld $1`
