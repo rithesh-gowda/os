@@ -1,3 +1,4 @@
+#Write a shell script that accepts filename as arguments and display its creation of time if file exits and if doesnot send output error message.
 filename=$1
 if [ -f $filename ]
 then 
