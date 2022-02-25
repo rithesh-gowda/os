@@ -1,3 +1,4 @@
+Write a shell script that accepts two filename as arguments,check if the permission for these files are identical and if the permission are identical,output common permission,otherwise output each filename followed by its permission.
 echo -n "Enter file name1"
 read f1
 if [ -e $f1 ]
