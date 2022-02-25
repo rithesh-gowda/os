@@ -1,4 +1,4 @@
-Write a shell script that accepts one or more file namess as arguments and convert all to uppercase,provided they exits in current directory.
+#Write a shell script that accepts one or more file namess as arguments and convert all to uppercase,provided they exits in current directory.
 for i in $*
 do 
 if [ -f $i ]
