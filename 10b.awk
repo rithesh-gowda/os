@@ -1,5 +1,5 @@
 BEGIN{
-print("No repeated line");
+print("No duplicate line");
 
 }
 {
