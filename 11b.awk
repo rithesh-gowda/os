@@ -25,6 +25,7 @@ tsal+=$5
 tda+=da
 thra+=hra
 tgs+=gs
+
 }
 
 END{
