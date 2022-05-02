@@ -17,6 +17,5 @@ for(i in arr)
 printf("%s sold %d books\n",i,arr[i]);
 }
 printf("total book sold %d",total);
-
 }
 
